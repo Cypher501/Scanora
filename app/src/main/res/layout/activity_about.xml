@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#1A1A2E"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⬡"
+                android:textSize="48sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SCANORA"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:letterSpacing="0.15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Result Viewer"
+                android:textSize="13sp"
+                android:textColor="#AAAACC"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- College Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Info"
+                android:textSize="13sp"
+                android:textColor="#888888"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scanora"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#1A1A2E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Made in India"
+                android:textSize="13sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created by @PokyMantella501"
+                android:textSize="13sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F0F0"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#1A1A2E"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scanora is an unofficial offline academic report viewer developed for educational institutions, enabling authorized users to scan student ID barcodes and instantly access locally stored academic reports without internet connectivity."
+                android:textSize="14sp"
+                android:textColor="#1A1A2E"
+                android:layout_marginBottom="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F0F0"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Version"
+                android:textSize="12sp"
+                android:textColor="#888888"
+                android:layout_marginBottom="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.0"
+                android:textSize="14sp"
+                android:textColor="#1A1A2E"/>
+
+        </LinearLayout>
+
+        <!-- Team Members Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM MEMBERS"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 1. Abdul Latheef -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abdul Latheef"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 2. Abhilnand -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abhilnand"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 3. Abhirami -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abhirami"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 4. Abhishek Shaji -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abhishek Shaji"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 5. Adithyan DeepuKumar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adithyan DeepuKumar"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 6. Akash Pradeep -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Akash Pradeep"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 7. Anoop S.R -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anoop S.R"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 8. Anoop U -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anoop U"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 9. Anosh Paul -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anosh Paul"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 10. Ashwin PR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ashwin PR"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 11. Athul E A -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="A"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Athul E A"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 12. Jibin Binoy -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="J"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jibin Binoy"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 13. Joel Mathew -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="J"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joel Mathew"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 14. Joyal Varghese -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="J"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joyal Varghese"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 15. Nevil Jose -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="N"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nevil Jose"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 16. Samuel George -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="S"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Samuel George"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 17. Thomas Shaju -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="T"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thomas Shaju"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 18. Udhay P.P -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="U"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#2F6BFF"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Udhay P.P"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 19. Wasim -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="W"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:background="#1A1A2E"
+                android:layout_marginEnd="16dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wasim"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EEE — S6"
+                    android:textSize="12sp"
+                    android:textColor="#888888"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

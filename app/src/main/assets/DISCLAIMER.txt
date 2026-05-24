@@ -1,0 +1,15 @@
+Scanora is an independent student-developed utility application created for
+educational and administrative assistance purposes only.
+
+This application is unofficial and is not affiliated with, endorsed by,
+or associated with any educational institution, government authority,
+or organization.
+
+Institute names used within the application are for identification and
+demonstration purposes only.
+
+Student information displayed within the application is used only with
+permission and is processed locally on the device. The application does
+not collect, transmit, or store personal data on external servers.
+
+Use of this application is at the user's own discretion and responsibility.

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/cameraPreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Top bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#AA000000"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/serverIpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting server..."
+            android:textColor="#4fc3f7"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/photoCountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 photo(s) saved"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+
+    <!-- Capture button at bottom center -->
+    <ImageButton
+        android:id="@+id/captureButton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/ic_launcher_background"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="Capture Photo"
+        android:padding="12dp"/>
+
+</RelativeLayout>
