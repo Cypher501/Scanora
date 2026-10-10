@@ -1,7 +1,7 @@
 # Scanora
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cypher501/Scanora/app/src/main/assets/logo.png" width="140" alt="Scanora Logo">
+  <img src="https://raw.githubusercontent.com/Cypher501/Scanora/main/assets/logo.png" width="140" alt="Scanora Logo">
 </p>
 
 <h3 align="center">
